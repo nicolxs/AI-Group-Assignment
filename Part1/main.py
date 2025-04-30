@@ -66,9 +66,10 @@ def find_degrees_of_separation(graph, start, end):
 # Example usage
 def test_degrees_of_separation():
     # Example to find degrees of separation between two scientists
-    # Replace with actual scientist IDs you want to check
-    scientist1_id = list(scientist_names.keys())[0]  # First scientist in your dataset
-    scientist2_id = list(scientist_names.keys())[1]  # Second scientist in your dataset
+    # Automate this part by selecting two random scientists from the graph
+    # For demonstration, we will just take the first two scientists from the dictionary
+    scientist1_id = list(scientist_names.keys())[0]  # First scientist 
+    scientist2_id = list(scientist_names.keys())[1]  # Second scientist 
     
     degrees = find_degrees_of_separation(graph, scientist1_id, scientist2_id)
     
